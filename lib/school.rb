@@ -27,10 +27,8 @@ class School
   end
   
   def sort
-    @ROSTER.map do |keys, values| 
-      keys.sort do |a,b|
+   hash_order =  @ROSTER.keys.sort do |a,b|
         a<=>b 
-      end  
-    end
+      end 
   end  
 end
