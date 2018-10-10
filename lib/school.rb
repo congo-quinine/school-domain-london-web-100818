@@ -27,6 +27,6 @@ class School
   end
   
   def sort
-    @ROSTER.each { |i, k| i.sort |a,b| a<=>b} 
+    @ROSTER.each { |i, k| i.sort {|a,b| a<=>b}}
   end
 end
