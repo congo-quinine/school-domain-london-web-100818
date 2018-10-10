@@ -27,7 +27,7 @@ class School
   end
   
   def sort
-    @ROSTER.map do |i, k|
+    @ROSTER.each do |i, k|
       k.sort 
     end 
   end  
