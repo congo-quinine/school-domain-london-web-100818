@@ -27,8 +27,8 @@ class School
   end
   
   def sort
-    @ROSTER.keys.map do |a| 
-      a.sort do |a,b|
+    @ROSTER.map do |keys, values| 
+      keys.sort do |a,b|
         a<=>b 
       end  
     end
