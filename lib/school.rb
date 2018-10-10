@@ -28,7 +28,7 @@ class School
   
   def sort
     @ROSTER.each do |i,k|
-      @ROSTER[i] = @ROSTER[i].sort
+      @ROSTER[i] = i.sort
     end
   @ROSTER
   end  
