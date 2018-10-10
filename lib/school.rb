@@ -27,10 +27,9 @@ class School
   end
   
   def sort
-   hash_order = @ROSTER.keys.sort do |a,b|
+    @ROSTER.values.sort do |a,b|
         a<=>b 
     end 
-    return hash_order
   end  
   
 end
