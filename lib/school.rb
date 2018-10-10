@@ -29,8 +29,7 @@ class School
   def sort
     @ROSTER.map do |i, k|
       i[k].sort 
-    end 
-  end
+     end
   end  
   
 end
