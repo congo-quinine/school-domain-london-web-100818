@@ -31,5 +31,6 @@ class School
       a.sort do |a,b|
         a<=>b 
       end  
-   end
+    end
+  end  
 end
