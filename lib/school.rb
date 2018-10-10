@@ -31,6 +31,7 @@ class School
       k.sort do |a,b|
         a<=>b 
     end 
+  end
   end  
   
 end
