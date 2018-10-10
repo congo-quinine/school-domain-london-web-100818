@@ -21,6 +21,6 @@ class School
      @ROSTER[grade] << student
   end
   
-  
+end
   
 end
