@@ -14,8 +14,11 @@ class School
   end
 
   def add_student(student, grade)
-    @ROSTER[grade] = []
+    
+     @ROSTER[grade] = [] if @ROSTER.include?(grade) 
     @ROSTER[grade] << student
   end
+  
+  
   
 end
