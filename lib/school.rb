@@ -27,6 +27,6 @@ class School
   end
   
   def sort
-    @ROSTER.keys.map {|i| i.sort{ |a,b| a<=>b}}
+    @ROSTER.keys.sort { |a,b| a<=>b}
   end
 end
