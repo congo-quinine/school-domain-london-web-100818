@@ -26,4 +26,7 @@ class School
     @ROSTER[grade]
   end
   
+  def sort
+    @ROSTER.keys.sort {|a,b| a<=>b}
+  end
 end
