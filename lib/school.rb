@@ -27,7 +27,7 @@ class School
   end
   
   def sort
-    @ROSTER.sort
+    @ROSTER
   end  
   
 end
