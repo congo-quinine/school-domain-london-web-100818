@@ -6,16 +6,16 @@ class School
 
   def initialize(school)
     @school = school  
-    ROSTER = {}
+    @ROSTER = {}
   end
 
   def roster
-    ROSTER
+    @ROSTER
   end
 
   def add_student(student, grade)
-    ROSTER[grade] = []
-    ROSTER[grade] << student
+    @ROSTER[grade] = []
+    @ROSTER[grade] << student
   end
   
 end
