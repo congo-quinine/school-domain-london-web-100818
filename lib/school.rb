@@ -3,18 +3,19 @@ require "pry"
 
 class School 
   attr_reader :school
+  ROSTER = {}
 
   def initialize(school)
     @school = school
   end
 
   def roster
-    @roster = {}
+    ROSTER
   end
 
-  def add_student(student_name, grade)
-    @roster[grade] = []
-    @roster[grade] << student_name
-  end 
+  def add_student(student, grade)
+    ROSTER[grade] = []
+    ROSTER[grade] << student
+  end
   
 end
