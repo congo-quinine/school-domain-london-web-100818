@@ -28,10 +28,8 @@ class School
   
   def sort
     @ROSTER.map do |i, k|
-      k.sort do |a,b|
-        a<=>b 
+      k.sort 
     end 
-  end
   end  
   
 end
