@@ -16,11 +16,14 @@ class School
   def add_student(student, grade)
     if @ROSTER.include?(grade) 
       @ROSTER[grade] << student
-  else 
+    else 
      @ROSTER[grade] = [] 
      @ROSTER[grade] << student
+    end
   end
   
-end
+  def grade(grade)
+    
+  end
   
 end
